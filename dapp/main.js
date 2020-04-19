@@ -35,7 +35,6 @@ function play() {
             queryId = receipt.events.logQueryId.returnValues.queryId;
             console.log("queryId:", queryId)
 
-            // FIXME. not filterning by queryId...
             contractInstance.once('userWon', {
                 filter: {
                     queryId: queryId

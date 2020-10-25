@@ -12,5 +12,8 @@
     "truffle": "^5.1.17",
     "truffle-assertions": "^0.9.2",
     "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "minimist": ">=0.2.1"
   }
 }
